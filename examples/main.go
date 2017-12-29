@@ -1,10 +1,3 @@
-#### clog
-clog 是一个简单轻量级的日志系统
-
-###安装:
-go get github.com/zhuyunsheng/clog
-
-```Go
 package main
 
 import (
@@ -26,4 +19,3 @@ func main() {
 	clog.LogDebug("Debug")
 	clog.LogErr("Error")
 }
-```
